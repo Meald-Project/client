@@ -4,7 +4,7 @@ import '../views/pages/favoris_page.dart';
 import '../views/pages/historique_page.dart';
 import '../views/pages/localisations.dart';
 import '../views/pages/parametres.dart';
-import '../../views/login.dart';
+import '../views/pages/login.dart';
 
 class SidebarPopup extends StatelessWidget {
     final UserViewModel userViewModel;

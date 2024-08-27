@@ -12,7 +12,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:meald/viewmodels/user_view_model.dart';
-import 'package:meald/views/login.dart';
+import 'package:meald/views/pages/login.dart';
 import 'panier.dart';
 import 'favoris_page.dart';
 import 'historique_page.dart';

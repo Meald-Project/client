@@ -16,7 +16,7 @@ class RandomImageBottomSheet extends StatelessWidget {
       height: 200,
       padding: EdgeInsets.all(20),
       child: Center(
-        child: Image.network(randomImage, fit: BoxFit.cover),
+        child: Image.asset("assets/LOGO.png", fit: BoxFit.cover),
       ),
     );
   }

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../widgets/themes/theme_provider.dart';
+import '../../widgets/themes/theme_provider.dart';
 
 class WelcomePage extends StatefulWidget {
   @override
@@ -23,8 +23,8 @@ class _LoadingPageState extends State<WelcomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Image.network(
-          '../assets/LOGO.png',
+        child: Image.asset(
+          'assets/LOGO.png',
           height: 130,
           width: 130,
         ),
@@ -55,8 +55,8 @@ class FirstPage extends StatelessWidget {
             Stack(
               alignment: Alignment.bottomCenter,
               children: [
-                Image.network(
-                  '../assets/User.gif',
+                Image.asset(
+                  'assets/User.gif',
                   height: 250,
                   width: 250,
                   fit: BoxFit.cover,
@@ -166,8 +166,8 @@ class SecondPage extends StatelessWidget {
               children: [
                 Container(
                   margin: EdgeInsets.only(bottom: 10),
-                  child: Image.network(
-                    '../assets/Location.gif',
+                  child: Image.asset(
+                    'assets/Location.gif',
                     width: 190,
                     fit: BoxFit.cover,
                   ),
@@ -287,8 +287,8 @@ class ThirdPage extends StatelessWidget {
               children: [
                 Container(
                   margin: EdgeInsets.only(bottom: 10),
-                  child: Image.network(
-                    '../assets/Driver.gif',
+                  child: Image.asset(
+                    'assets/Driver.gif',
                     height: 250,
                     width: 250,
                     fit: BoxFit.cover,

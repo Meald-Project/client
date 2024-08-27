@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:meald/viewmodels/user_view_model.dart';
 import 'package:meald/views/pages/one_article.dart';
-import 'package:meald/views/login.dart';
+import 'package:meald/views/pages/login.dart';
 import 'views/pages/home_page.dart';
 import 'views/pages/profile_page.dart';
 import 'views/ForgetPassword.dart';
-import 'views/welcome_page.dart';
+import 'views/pages/welcome_page.dart';
 import 'views/pages/all_categories.dart';
-import 'views/signup.dart';
+import 'views/pages/signup.dart';
 import 'package:meald/viewmodels/footer_view_model.dart'; // Assurez-vous d'importer le ViewModel
 import 'package:provider/provider.dart';
 import '../widgets/themes/theme_provider.dart';
